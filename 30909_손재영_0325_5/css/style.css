@@ -1,0 +1,84 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    font-family: "맑은 고딕";
+    color: #333333;
+}
+body{
+    width: 1000px;
+    height: 650px;
+    background-color: #ffffff;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+.wrap{
+    float: left;
+    width: 200px;
+    height: 650px;
+    background-color: #eeeeee;
+}
+header{
+    float: left;
+    position: absolute;
+    
+}
+
+.menu {
+    float: left;
+    top: 100px;
+    left: 10px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+}
+
+.navi>li {
+    float: left;
+    width: 180px;
+}
+
+.navi>li>a {
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.navi>li>a:hover {
+    background-color: #cccccc;
+    color: #000000;
+}
+
+.submenu {
+    float: left;
+    width: 180px;
+    height: 250px;
+    left: 180px;
+    top: -20px;
+    position: absolute;
+    background-color: #999999;
+    display: none;
+    z-index: 1;
+}
+
+.submenu>li>a {
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #999999;
+    color: #333333;
+}
+
+.submenu>li>a:hover {
+    background-color: #cccccc;
+    color: #ffff00;
+}
