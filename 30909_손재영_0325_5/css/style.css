@@ -82,3 +82,29 @@ header{
     background-color: #cccccc;
     color: #ffff00;
 }
+.imgslide{
+    float: right;
+    width: 800px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+}
+.slidelist{
+    width: 2400px;
+}
+.slidelist ul li{
+    width: 800px;
+    float: left;
+}
+.slidelist span{
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 50px;
+    background-color: rgba(40, 40, 40,0.5);
+    margin-left: 200px;
+    margin-top: 150px;
+}
