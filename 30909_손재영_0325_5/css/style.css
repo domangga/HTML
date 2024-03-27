@@ -108,3 +108,41 @@ header{
     margin-left: 200px;
     margin-top: 150px;
 }
+.contents{
+    float: right;
+    width: 800px;
+    height: 200px;
+}
+.notice{
+    float: left;
+    width: 300px;
+    height: 200px;
+}
+.tab{
+    float: left;
+    width: 300px;
+}
+.notice h4{
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 10px;
+}
+.notice ul{
+    float: left;
+    width: 290px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    margin-left: 10px;
+
+}
+.notice li span{
+    float: right;
+}
+.notice li:nth-child(2n){
+    background-color: #cccccc;
+}
+.notice li:hover{
+    font-weight: bold;
+}

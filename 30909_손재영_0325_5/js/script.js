@@ -17,4 +17,5 @@ jQuery(document).ready(function(){
         $('.slidelist').animate({marginLeft:0});
         $('.slidelist').delay(2000);
     })
+    
 });
