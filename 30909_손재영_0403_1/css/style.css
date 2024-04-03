@@ -1,0 +1,136 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    font-family: "맑은고딕";
+    color: #333333;
+}
+body{
+    width: 1000px;
+    height: 650px;
+    background-color: #ffffff;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+.contents{
+    float: right;
+    width: 800px;
+    height: 200px;
+}
+.notice{
+    float: left;
+    width: 300px;
+    height: 200px;
+}
+.tab{
+    float: left;
+    width: 300px;
+}
+.notice h4{
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 10px;
+}
+.notice ul{
+    float: left;
+    width: 290px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.notice li span{
+    float: right;
+}
+.notice li:nth-child(2n){
+    background-color: #cccccc;
+}
+.notice li:hover{
+    font-weight: bold;
+}
+.gallery{
+    float: left;
+    width: 300px;
+    height: 200px;
+}
+.gallery h4{
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 10px;
+}
+.gallery ul li{
+    float: left;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+.gallery img{
+    width: 80px;
+    height: 80px;
+}
+.gallery li:hover{
+    opacity: 0.5;
+}
+.btlogo img{
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.btlogo{
+    float: left;
+    width: 200px;
+    height: 100px;
+}
+.site{
+    float: right;
+    width: 600px;
+    height: 100px;
+}
+.btmenu{
+    float: right;
+    width: 600px;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 50px;
+}
+footer{
+    float: right;
+    width: 800px;
+    height: 100px;
+    background-color: #30a3f3;
+}
+.btmenu li{
+    margin-top: 10px;
+    display: inline-block;
+}
+.shortcut img{
+    float: right;
+    width: 180px;
+    height: 180px;
+    margin-top: 10px;
+}
+.sctext{
+    width: 120px;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 85px;
+    margin-left: 50px;
+}
+.copy{
+    float: right;
+    width: 600px;
+    height: 50px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 50px;
+}
+.btmenu li:hover{
+    font-weight: bold;
+}
