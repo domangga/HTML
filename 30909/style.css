@@ -1,0 +1,113 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+.box{
+    width: 1200px;
+    height: 700px;
+}
+.haeder{
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+}
+.logo{
+    width: 250px;
+    height: 100px;
+    background-color: azure;
+    float: left;
+}
+.menu{
+    width: 950px;
+    height: 100px;
+    background-color: bisque;
+    float: right;
+}
+.navi{
+    float: right;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 20px;
+
+}
+.navi>li{
+    float: left;
+}
+.navi>li>a{
+    width: 180px;
+    height: 40px;
+    background-color: hotpink;
+    line-height: 40px;
+
+}
+.navi>li>a:hover{
+    background-color: cadetblue;
+}
+.sub{
+    display: none;
+}
+.sub>li>a{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    background-color: chartreuse;
+}
+.sub>li>a:hover{
+    background-color: chocolate;
+}
+.imgslide{
+    width: 100%;
+    height: 300px;
+    background-color: blueviolet;
+}
+.body{
+    width: 100%;
+    height: 200px;
+    background-color: brown;
+}
+.c1{
+    width: 400px;
+    height: 200px;
+    background-color: coral;
+    float: left;
+}
+.c2{
+    width: 400px;
+    height: 200px;
+    background-color: burlywood;
+    float: left;
+}
+.c3{
+    width: 400px;
+    height: 200px;
+    background-color: hotpink;
+    float: left;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: brown;
+}
+.sub_logo{
+    width: 250px;
+    height: 100px;
+    background-color: black;
+    float: left;
+}
+.copy_logo{
+    width: 700px;
+    height: 100px;
+    background-color: darkblue;
+    float: left;
+}
+.sns_logo{
+    width: 250px;
+    height: 100px;
+    background-color: cornflowerblue;
+    float: left;
+}
