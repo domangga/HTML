@@ -1,0 +1,158 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+.box{
+    width: 1200px;
+    height: 700px;
+}
+.header{
+    width: 1200px;
+    height: 100px;
+    
+}
+.logo{
+    width: 250px;
+    height: 100px;
+    background-color: blanchedalmond;
+    float: left;
+    text-align: center;
+    line-height: 100px;
+}
+.menu{
+    width: 950px;
+    height: 100px;
+    background-color: azure;
+    float: left;
+}
+.navi{
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    position: relative;
+    z-index: 1;
+}
+.navi>li{
+    float: left;
+    text-align: center;
+}
+.navi>li>a{
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    background-color: crimson;
+}
+.navi>li>a:hover{
+    background-color: chartreuse;
+}
+.sub{
+    display: none;
+    height: 200px;
+    width: 160px;
+}
+.sub>li{
+    line-height: 40px;
+    background-color: chocolate;
+}
+.sub>li>a:hover{
+    background-color: cyan;
+}
+.slidlist{
+    width: 1200px;
+    height: 300px;
+    background-color: aqua;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    
+}
+.logo>a{
+    font-size: 50px;
+    font-weight: bold;
+}
+.imgslide{
+    width: 4800px;
+}
+.imgslide li>a>img{
+    width: 1200px;
+    height: 300px;
+    float: left;  
+    object-fit: cover;
+}
+.imgslide span{
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    background-color: aliceblue;
+    text-align: center;
+    line-height: 50px;
+    font-size: 34px;
+    margin-top: 130px;
+    margin-left: 400px;
+
+}
+.gallery img{
+    width: 100px;
+    height: 100px;
+    display: none;
+
+}
+.gallery li{
+    float: left;
+}
+.body{
+    width: 1200px;
+    height: 200px;
+    float: left;
+}
+.c1{
+    width: 400px;
+    height: 200px;
+    float: left;
+    position: absolute;
+
+}
+.tabmenu >li{
+    float: left;
+    width: 100px;
+    line-height: 30px;
+}
+.tabmenu>li>a{
+    background-color: aqua;
+    text-align: center;
+    border:  1px solid white;
+}
+.tabmenu>li>a:hover{
+    font-weight: bold;
+}
+.tabmenu>li.active>a{
+    background-color: cadetblue;
+}
+
+.tabmenu>li div{
+    position: absolute;
+    left: 0;
+    
+}
+.notice{
+    width: 390px;
+    height: 150px;
+}
+.notice li{
+    line-height: 32px;
+
+}
+.notice span{
+    float: right;
+}
+.notice li:nth-child(2n){
+    background-color: rgb(167, 179, 190);
+}
+
+
+
