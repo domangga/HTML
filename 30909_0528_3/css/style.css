@@ -61,7 +61,7 @@ a{
 .sub{
     z-index: 1;
     display: none;
-    top: -20px;
+    top: 20px;
     left: 220px;
     float: left;
     position: absolute;
@@ -100,4 +100,58 @@ a{
     font-size: 50px;
     font-weight: bold;
     color: black;
+}
+.body{
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+}
+.contents{
+    width: 375px;
+    height: 200px;
+    background-color: brown;
+    float: left;
+    
+}
+.tabmenu{
+    width: 375px;
+    height: 200px;
+    position: absolute;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.tabmenu>li{
+    float: left;
+    width: 100px;
+    line-height: 30px;
+}
+.tabmenu>li>a{
+    display: block;
+    text-align: center;
+    border: 1px solid black;
+    border-bottom: none;
+    
+}
+.tabmenu>li:first-child>a{
+    border-right: none;
+}
+.tabmenu>li.active>a{
+    background-color: white;
+}
+.tabmenu>li div{
+    position: absolute;
+    left: 0;
+    height: 0;
+    overflow: hidden;
+}
+.tabmenu>li.active div{
+    width: 373px;
+    height: 148px;
+    border: 1px solid black;
+    z-index: 1;
+}
+
+.gallery>ul>li>a>img{
+    width: 100px;
+    height: 100px;
 }
