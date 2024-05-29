@@ -19,7 +19,7 @@ $('.tabmenu>li>a').click(function(){
     return false;
 })
 
-$('.notice li:fisrt').click(function(){
+$('.notice li:first').click(function(){
     $('#modal').addClass('active')
 })
 $('.btn').click(function(){
