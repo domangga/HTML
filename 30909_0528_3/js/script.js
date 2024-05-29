@@ -13,3 +13,15 @@ setInterval(function(){
     $('.slidelist').animate({marginLeft: 0});
     $('.slidelist').delay(2000);
 })
+
+$('.tabmenu>li>a').click(function(){
+    $(this).parent().addClass('active').siblings().removeClass('active');
+    return false;
+})
+
+$('.notice li:fisrt').click(function(){
+    $('#modal').addClass('active')
+})
+$('.btn').click(function(){
+    $('#modal').removeClass('active')
+})
