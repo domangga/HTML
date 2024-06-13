@@ -1,0 +1,101 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+.all{
+    width: 1200px;
+    height: 700px;
+    background-color: rgb(41, 36, 32);
+}
+.header{
+    width: 150px;
+    height: 100%;
+    background-color: rgb(255, 208, 0);
+    float: left;
+    margin-top: 1px;
+}
+.logo{
+    margin-top: 1px;
+  width: 150px;
+  height: 60px;
+  float: left;
+  background-color: white;
+}
+.menu{
+    width: 150px;
+    height: 629px;
+    float: left;
+    background-color: rgb(41, 36, 32);
+    margin-top: 10px;
+}
+.navi>li>a{
+    color: white;
+    width: 150px;
+    height: 40px;
+    margin-left: 10px;
+    line-height: 40px;
+    
+    
+}
+.navi{
+    position: relative;
+}
+.navi > li:hover{
+	background-color:rgba(237, 234, 227, .15);
+}
+.logo li{
+    float: left;
+    font-size: 25px;
+    font-weight: 1000;
+    text-align: center;
+    line-height: 60px;
+    
+    
+}
+
+.b{
+    margin-left: 10px; 
+    color: rgb(255, 208, 0);
+}
+.sub>li>a{
+    color: black;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    background:#2e2a29;
+    text-align: center;
+    
+    
+}
+
+.navi{
+    position: relative;
+}
+.sub{ 
+    top:0px;
+    left:150px;
+    z-index:1;
+    display: none;
+    position: absolute;
+}
+.sub> li > a:hover{
+	background-color:rgba(237, 234, 227, .15);
+	color:#edeae3;
+}
+
+.login li{
+    margin-top: 40px;
+    float: left;
+    margin-left: 25px;
+
+}
+.login>li>a{
+    color: white;
+    font-size: 12px;
+}
