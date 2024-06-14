@@ -49,6 +49,12 @@ a{
 .navi > li:hover{
 	background-color:rgba(237, 234, 227, .15);
 }
+.slidelist{
+    width: 700px;
+    height: 100%;
+    background-color: blue;
+    float: right;
+}
 .logo li{
     float: left;
     font-size: 25px;
@@ -73,7 +79,13 @@ a{
     
     
 }
-
+.c3>li img{
+    width: 330px;
+    height: 170px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
 .navi{
     position: relative;
 }
@@ -98,4 +110,43 @@ a{
 .login>li>a{
     color: white;
     font-size: 12px;
+}
+.contents{
+    width: 350px;
+    height: 100%;
+    float: left;
+    background-color: rgb(255, 255, 255);
+}
+.tabmenu{
+    width: 350px;
+    height: 200px;
+    /* background-color: aqua; */
+    margin-top: 100px;
+}
+.tabmenu>li{
+    width: 100px;
+    float: left;
+    line-height: 30px;
+    
+    
+}
+.tabmenu>li>a{
+    text-align: center;
+    background-color: aliceblue;
+    margin-left: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: black;
+
+
+}
+.notice{
+    width: 330px;
+
+    margin-left: 10px;
+
+    border-top: 1px solid rgb(199, 195, 195);
+}
+.notice li{
+    
 }
