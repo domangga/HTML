@@ -1,0 +1,168 @@
+@charset "utf-8";
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: block;
+    /* color: inherit; */
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+width: 100%;
+height: 100%;    
+}
+.all{
+    width: 100%;
+    height: 100%;
+}
+.menu{
+    width: 200px;
+    height: 100%;
+    background-color: blue;
+}
+.left_box{
+    width: 200px;
+    height: 100%;
+    background-color: aquamarine;
+    float: left;
+}
+.right_box{
+    width: calc(100% - 200px);
+    height: 100%;
+    background-color: blueviolet;
+    float: left;
+    
+}
+.contents{
+    width: 400px;
+    height: 100%;
+    background-color: rgb(80, 80, 148);
+    float: left;
+}
+.slidelist{
+    width: calc(100% - 400px);
+    height: 100%;
+    background-color: brown;
+    float: left;
+}
+.footer{
+    width: 100%;
+    height: 120px;
+    background-color: yellow;
+    position: absolute;
+    bottom: 0;
+}
+.logo{
+    width: 200px;
+    height: 100px;
+    background-color: blanchedalmond;
+}
+.navi{
+    margin-top: 30px;
+}
+.sub>li{
+    text-align: center;
+}
+.menu{
+    position: absolute;
+}
+.navi>li:hover{
+    background-color: rgb(97, 83, 65);
+}
+.navi>li{
+    background-color: antiquewhite;
+    margin-left: 20px;
+    line-height: 40px;
+    width: 160px;
+    height: 40px;
+    
+}
+.navi>li>a{
+    margin-left: 10px;
+    line-height: 40px;
+    
+    
+    
+    
+    
+}
+.sub>li>a{
+    line-height: 40px;
+    width: 170px;
+    height: 40px;
+    background-color: antiquewhite;
+    
+    
+    
+    
+}
+.sub{
+    position: absolute;
+    left: 180px;
+    top: 30px;
+    display: none;
+    
+}
+.imgbanner img{
+    width: 400px;
+    height: 150px;
+}
+.tabmenu{
+    
+    width: 400px;
+    height: 200px;
+    /* background-color: bisque; */
+    margin-top: 10px;
+    
+}
+.tabmenu>li>a{
+    width: 100px;
+    float: left;
+    text-align: center;
+    background-color: aliceblue;
+    margin-left: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+
+    
+}
+.tabmenu>li{
+    line-height: 30px;
+}
+.tabmenu>li div{
+    width: 383px;
+    height: 163px;
+    float: left;
+    /* background-color: beige; */
+    margin-left: 10px;
+    border-top: 1px solid;
+    
+}
+
+.notice ul{
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.notice li{
+    
+    
+    height: 34px;
+    line-height: 34px;
+    border-bottom: 1px solid;
+}
+.notice span{
+    float: right;
+}
+
+
+
+
+
