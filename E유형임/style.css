@@ -3,6 +3,7 @@
     margin: 0 auto;
     padding: 0;
     list-style: none;
+    color: black;
 }
 a{
     text-decoration: none;
@@ -12,6 +13,7 @@ a{
 html{
     width: 100%;
     height: 100%;
+    background-color: rgb(165, 171, 177);
 }
 body{
 width: 100%;
@@ -23,40 +25,40 @@ height: 100%;
 }
 .menu{
     width: 200px;
-    height: 100%;
-    background-color: blue;
+    height: calc(100% - 220px);   
+    /* background-color: blue; */
 }
 .left_box{
     width: 200px;
-    height: 100%;
-    background-color: aquamarine;
+    height: calc(100% - 120px);   
+    /* background-color: aquamarine; */
     float: left;
 }
 .right_box{
     width: calc(100% - 200px);
-    height: 100%;
-    background-color: blueviolet;
+    height: calc(100% - 120px);   
+    /* background-color: blueviolet; */
     float: left;
+    
     
 }
 .contents{
     width: 400px;
-    height: 100%;
-    background-color: rgb(80, 80, 148);
+    height: calc(100%);   
+    /* background-color: rgb(80, 80, 148); */
     float: left;
 }
 .slidelist{
     width: calc(100% - 400px);
-    height: 100%;
-    background-color: brown;
+    height: calc(100%);   
+    /* background-color: brown; */
     float: left;
 }
 .footer{
     width: 100%;
     height: 120px;
-    background-color: yellow;
-    position: absolute;
-    bottom: 0;
+    /* background-color: yellow; */
+    float: left;
 }
 .logo{
     width: 200px;
@@ -118,7 +120,7 @@ height: 100%;
     width: 400px;
     height: 200px;
     /* background-color: bisque; */
-    margin-top: 10px;
+    margin-top: 40px;
     
 }
 .tabmenu>li>a{
@@ -160,6 +162,137 @@ height: 100%;
 }
 .notice span{
     float: right;
+}
+.gallery img{
+    width: 130px;
+    height: 100px;
+}
+.tabmenu2{
+    
+    width: 400px;
+    height: 200px;
+    /* background-color: bisque; */
+    margin-top: 40px;
+    
+}
+.tabmenu2>li>a{
+    width: 100px;
+    float: left;
+    text-align: center;
+    background-color: aliceblue;
+    margin-left: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+
+    
+}
+.tabmenu2>li{
+    line-height: 30px;
+}
+.tabmenu2>li div{
+    width: 383px;
+    height: 163px;
+    float: left;
+    /* background-color: beige; */
+    margin-left: 10px;
+    border-top: 1px solid;
+    
+}
+.gallery ul{
+    margin-top: 10px;
+}
+.gallery li{
+    float: left;
+    margin-left: 40px;
+}
+.gallery li span{
+    
+    margin-left: 30px;
+}
+.gbanner img{
+width: 70px;
+height: 70px;
+}
+.gbanner{
+    width: 400px;
+    height: 100px;
+    /* background-color: blueviolet; */
+}
+.gbanner ul{
+    margin-top: 40px;
+    
+}
+.gbanner li{
+    margin-left: 25px;
+    float: left;
+}
+.g{
+   margin-left: 22px;
+}
+
+.slidelist{
+    position: relative;
+    overflow: hidden;
+}
+.imgslide span{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgba(240, 248, 255, 0.568);
+    text-align: center;
+    margin-top: 30%;
+    margin-left: 35%;
+    
+}
+.imgslide img{
+    
+      width: 1620px;
+      height: 1015px;  
+}
+.imgslide{
+    width: 4860px;
+}
+.imgslide li{
+    float: left;
+}
+.footer_logo{
+    width: 200px;
+    height: 120px;
+    background-color: blueviolet;
+    float: left;
+}
+.coplight{
+    width: 1400px;
+    height: 120px;
+    float: left;
+    
+}
+.top{
+    width: 1400px;
+    height: 60px;
+    /* background-color: blanchedalmond; */
+    
+
+}
+.bootome{
+    width: 1400px;
+    height: 60px;
+    /* background-color: hotpink; */
+    
+}
+
+.top li{
+    margin-top: 20px;
+    float: left;
+    margin-left: 200px;
+}
+.bootome li{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 30%;
+    
 }
 
 
